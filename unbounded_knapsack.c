@@ -28,8 +28,8 @@ int main()
 	for(int i = 0 ;i < n ;i++)
 		scanf("%d", val+i);
 	
-	printf("max value: %d\n",KS(w,n,wt,val,K));
-	printf("bag contains:\n");
+	printf("\n\nMaximum value of the Knapsack: %d\n",KS(w,n,wt,val,K));
+	printf("Knapsack contains:\n");
 	for(int i=1;i<=bag[w][0];i++)
 		printf("%d ",bag[w][i]);
 	printf("\n");
